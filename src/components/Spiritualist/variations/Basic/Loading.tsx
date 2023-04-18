@@ -3,8 +3,8 @@ import SpiritualistTemplate from '~/components/Spiritualist/variations/Basic/tem
 function LoadingSpiritualist() {
   return (
     <SpiritualistTemplate
-      name={'Professor A CARREGAR...'}
-      description={'O Professor está a chegar, por favor aguarde!'}
+      name={'Mestre A CARREGAR...'}
+      description={'O Mestre está a chegar, por favor aguarde!'}
     />
   );
 }

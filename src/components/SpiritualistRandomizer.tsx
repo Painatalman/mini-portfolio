@@ -23,7 +23,7 @@ const SpiritualistRandomizer = () => {
         }}
         className="border-solid border-4 border-black py-1 px-2 mb-6 rounded text-white bg-black"
       >
-        Ver outro especialista
+        Gera-me outro cartão
       </button>
     </>
   );

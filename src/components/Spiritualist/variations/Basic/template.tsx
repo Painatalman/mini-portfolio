@@ -5,7 +5,10 @@ type Props = {
   description: string;
 };
 
-const SpiritualistTemplate: React.FC<Props> = ({ name, description }: Props) => (
+const SpiritualistTemplate: React.FC<Props> = ({
+  name,
+  description,
+}: Props) => (
   <article className="p-4 rounded-none max-w-sm shadow mb-8 border-2  border-solid border-black">
     <header>
       <div className="flex justify-between align-center">
@@ -14,13 +17,15 @@ const SpiritualistTemplate: React.FC<Props> = ({ name, description }: Props) => 
         <HeartIcon />
       </div>
       <div className="font-bold text-center bg-black text-white">
-        Telf: 999 999 999 - 999 999 999
+        <a href="https://www.linkedin.com/in/mipico/">
+          https://www.linkedin.com/in/mipico/
+        </a>
       </div>
     </header>
     <p className="text-sm text-justify mb-1">{description}</p>
     <footer className="font-bold text-sm text-center">
       <p className="">Todos os dias das 8h às 22h</p>
-      <p className="">Rua Falsa, 11 - 1º Esq., 1234-567, Terra</p>
+      <a href="mailto:miguel.vpcosta@gmail.com">miguel.vpcosta@gmail.com</a>
     </footer>
   </article>
 );
